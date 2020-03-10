@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/titleFragment">
+
+    <fragment
+        android:id="@+id/titleFragment"
+        android:name="com.example.calltronix.titleFragment"
+        android:label="fragment_title"
+        tools:layout="@layout/fragment_title" >
+        <action
+            android:id="@+id/action_titleFragment_to_addDriverFragment"
+            app:destination="@id/addDriverFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/addDriverFragment"
+        android:name="com.example.calltronix.AddDriverFragment"
+        android:label="fragment_add_driver"
+        tools:layout="@layout/fragment_add_driver" />
+</navigation>

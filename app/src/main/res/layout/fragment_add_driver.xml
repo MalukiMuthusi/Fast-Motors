@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/frameLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".AddDriverFragment">
+
+        <ScrollView
+            android:id="@+id/scroll"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:id="@+id/scrollLinearlayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/driverNameText"
+                    style="@style/label"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/driver_name_text" />
+
+                <EditText
+                    android:id="@+id/driverName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:autofillHints=""
+                    android:ems="10"
+                    android:hint="@string/hint_name"
+                    android:inputType="textPersonName"
+                    tools:text="@string/hint_name" />
+
+                <TextView
+                    android:id="@+id/phoneNumberText"
+                    style="@style/label"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/phone_number_text" />
+
+                <EditText
+                    android:id="@+id/phoneNumber"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:autofillHints=""
+                    android:ems="10"
+                    android:hint="@string/phone_number"
+                    android:inputType="number|phone"
+                    tools:text="@string/phone_number" />
+
+                <TextView
+                    android:id="@+id/companyNameText"
+                    style="@style/label"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/company_name_text" />
+
+                <EditText
+                    android:id="@+id/companyName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:autofillHints=""
+                    android:ems="10"
+                    android:hint="@string/company_name"
+                    android:inputType="textPersonName"
+                    tools:text="@string/company_name" />
+
+                <TextView
+                    android:id="@+id/ownerNameText"
+                    style="@style/label"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/owner_name_text" />
+
+                <EditText
+                    android:id="@+id/ownerName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:autofillHints=""
+                    android:ems="10"
+                    android:hint="@string/owner_name"
+                    android:inputType="textPersonName"
+                    tools:text="@string/owner_name" />
+
+                <TextView
+                    android:id="@+id/ownerEmailText"
+                    style="@style/label"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/owner_email_text" />
+
+                <EditText
+                    android:id="@+id/ownerEmail"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:autofillHints=""
+                    android:ems="10"
+                    android:hint="@string/owner_email"
+                    android:inputType="textEmailAddress"
+                    tools:text="@string/owner_email" />
+
+                <TextView
+                    android:id="@+id/truckModelText"
+                    style="@style/label"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/truck_model_text" />
+
+                <EditText
+                    android:id="@+id/truckModel"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:autofillHints=""
+                    android:ems="10"
+                    android:hint="@string/truck_model"
+                    android:inputType="textPersonName"
+                    tools:text="@string/truck_model" />
+
+                <TextView
+                    android:id="@+id/truckRegText"
+                    style="@style/label"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/truck_Reg_text" />
+
+                <EditText
+                    android:id="@+id/truckREG"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:autofillHints=""
+                    android:ems="10"
+                    android:hint="@string/truck_REG"
+                    android:inputType="number|text"
+                    tools:text="@string/truck_REG" />
+
+                <TextView
+                    android:id="@+id/chasisNumberText"
+                    style="@style/label"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/chasis_number_text" />
+
+                <EditText
+                    android:id="@+id/chasisNumber"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:autofillHints=""
+                    android:ems="10"
+                    android:hint="@string/chasis_number"
+                    android:inputType="number|text"
+                    tools:text="@string/chasis_number" />
+
+                <TextView
+                    android:id="@+id/engineNumberText"
+                    style="@style/label"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/engine_number_text" />
+
+                <EditText
+                    android:id="@+id/engineNumber"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:autofillHints=""
+                    android:ems="10"
+                    android:hint="@string/engine_number"
+                    android:inputType="number|text"
+                    tools:text="@string/engine_number" />
+
+                <TextView
+                    android:id="@+id/mileageText"
+                    style="@style/label"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/mileage_text" />
+
+                <EditText
+                    android:id="@+id/mileage"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:autofillHints=""
+                    android:ems="10"
+                    android:hint="@string/mileage"
+                    android:inputType="number"
+                    tools:text="@string/mileage" />
+
+                <Button
+                    android:id="@+id/submitButton"
+                    style="@style/label"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#432196F3"
+                    android:text="@string/submit_button_text" />
+            </LinearLayout>
+        </ScrollView>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>
